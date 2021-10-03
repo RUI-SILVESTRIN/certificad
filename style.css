@@ -1,0 +1,124 @@
+/*visto o tamanho no figama e copiado do site google fontes*/
+@import url
+(
+  "https://fonts.googleapis.com/css2? family = Roboto:wght@400;700 & display = swap"
+);
+
+body {
+  /*copiado o figma - aula 9*/
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  /*usado para todo o site*/
+  font-family: "Roboto", sans-serif;
+}
+/*para montar uma class que esta no header do html*/
+.container {
+  /*copiado do figma - e' o retangulo*/
+  background: #ecf4ff;
+  /*copiado do figma*/
+  color: #1c1c1c;
+  margin: 64px;
+  /*copiado do figma*/
+  border-radius: 20px;
+  /*copiado do figma*/
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  /*posicionar os elementos dentro da classe*/
+  /*ler artigo sobre flex-direction*/
+  display: flex;
+}
+
+.perfil-foto {
+  /*do figma*/
+  border-radius: 460px;
+  max-height: 160px;
+  /*só o argumento foi copiado do figma*/
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+
+/*estilizando a tag h1 que está dentro da classe titulo*/
+.titulo h1 {
+  /*700 e 36px vem do figma*/
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/*estilizando a tag h3 que está dentro da classe titulo*/
+.titulo h3 {
+  /*700 e 36px vem do figma*/
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/*botao*/
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-size: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos {
+  /*rever os emoji*/
+  display: flex;
+  flex-direction: column;
+  /*copiado do figma*/
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  /*copiado do figma 2*/
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  /*tira o sublinhado*/
+  text-decoration: none;
+}
+
+.dark {
+  /*copiado do figma*/
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
